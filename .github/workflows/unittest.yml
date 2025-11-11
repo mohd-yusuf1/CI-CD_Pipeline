@@ -48,7 +48,7 @@ jobs:
             - name: Set up python
               uses: actions/setup-python@v5
               with:
-                python-verison: '3.12'
+                python-version: '3.12'
 
             # Step 3: Install dependencies
             - name: Install dependencies
