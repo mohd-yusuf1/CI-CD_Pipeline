@@ -20,6 +20,8 @@ jobs:
             # Step 2: Setup python environment
             - name: Set up python
               uses: actions/setup-python@v2
+              with:
+                python-verison: '3.14'
 
             # Step 3: Install dependencies
             - name: Install dependencies
